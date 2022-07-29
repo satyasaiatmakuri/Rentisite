@@ -1,0 +1,60 @@
+.navbar{
+    background-color: rgb(243, 246, 248);
+    border-bottom: 1px solid rgb(74, 19, 126);
+}
+
+.nav-menu .nav-menu-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dropdown-btn{
+    border: transparent !important;
+}
+
+.nav-menu-item:hover{
+    color: rgb(74, 19, 126);
+    background-color: rgb(190, 182, 209);
+    border-radius: 10px;
+}
+
+.nav-sign .nav-sign-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-login{
+    color: rgb(74, 19, 126); 
+    border: 1px solid rgb(74, 19, 126);
+    border-radius: 10px;
+}
+
+.sign-signup{
+    background-color: rgb(74, 19, 126);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.menu-icon{
+    font-size: xx-large !important;
+}
+
+.canva-header{
+    background-color:rgb(243, 246, 248) ;
+}
+
+.canva-body{
+    background-color:rgb(243, 246, 248) ;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.toggle-menu-item{
+    margin: 10px;
+    font-size: x-large;
+}
