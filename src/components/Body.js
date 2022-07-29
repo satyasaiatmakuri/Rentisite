@@ -27,6 +27,7 @@ function Body() {
         }else if(x.location.toLowerCase().includes(location.toLowerCase())){
           return x
         }
+        return false
     });
     templist = templist.filter((x)=>{
       if(when===''){
@@ -37,21 +38,21 @@ function Body() {
         return x
       }else if(x.moveby[0]===parseInt(whenarr[0]) && x.moveby[1]===parseInt(whenarr[1]) && x.moveby[2]<=parseInt(whenarr[2])){
         return x
-      }
+      }return false
     })
     templist = templist.filter((x)=>{
       if(price===''){
         return x
       }else if(parseInt(x.price)>=parseInt(pricearr[0]) && parseInt(x.price)<=parseInt(pricearr[1])){
         return x
-      }
+      }return false
     })
     let updatedList = templist.filter((x)=>{
       if(category===''){
         return x
       }else if(x.category.toLowerCase()===category.toLowerCase()){
         return x
-      }
+      }return false
     })
     setFilter(updatedList);
   }
@@ -62,7 +63,7 @@ function Body() {
         return x
       }else if(x.title.toLowerCase().includes(searchdata.toLowerCase())){
         return x
-      }
+      }return false
 
     });
     setFilter(updatedList);
