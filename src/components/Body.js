@@ -134,7 +134,7 @@ function Body() {
                         <Button variant="primary" onClick={manualfilter} className='m-3'>Search</Button>
                         
                         <OverlayTrigger
-                          placement='right'
+                          placement='top'
                           overlay={
                             <Tooltip>
                               Enter Location like India, USA, Europe, Italy, Maldives.
