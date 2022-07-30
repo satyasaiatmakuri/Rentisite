@@ -6,6 +6,7 @@
 .nav-logo{
     font-family:'Times New Roman', Times, serif;
     font-weight: 600 !important;
+    cursor: pointer;
 }
 
 .nav-menu .nav-menu-inner{
@@ -13,6 +14,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.nav-menu-item{
+    cursor: pointer;
 }
 
 .dropdown-btn{
@@ -35,13 +40,14 @@
     color: rgb(74, 19, 126); 
     border: 1px solid rgb(74, 19, 126);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .sign-signup{
     background-color: rgb(74, 19, 126);
     color: white;
     border-radius: 10px;
-
+    cursor: pointer;
 }
 
 .menu-icon{

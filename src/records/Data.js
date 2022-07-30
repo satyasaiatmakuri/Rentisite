@@ -33,7 +33,7 @@ export const properties=[
         beds:2,
         bathrooms:2,
         area:`9*7`,
-        image:"https://th.bing.com/th/id/OIP.InsGGNb95kAQcHcE6ufpdQHaE8?w=268&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+        image:"https://images.pexels.com/photos/2697773/pexels-photo-2697773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         location:"NewYork USA",
         moveby:[2022,9,10],
         category:"Store"
@@ -59,7 +59,7 @@ export const properties=[
         beds:2,
         bathrooms:2,
         area:`6*7`,
-        image:"https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=400",
+        image:"https://images.pexels.com/photos/305832/pexels-photo-305832.jpeg?auto=compress&cs=tinysrgb&w=600",
         location:"Italy",
         moveby:[2022,8,5],
         category:"Store"
@@ -72,7 +72,7 @@ export const properties=[
         beds:3,
         bathrooms:2,
         area:`5*7`,
-        image:"https://images.pexels.com/photos/1643389/pexels-photo-1643389.jpeg?auto=compress&cs=tinysrgb&w=400",
+        image:"https://images.pexels.com/photos/2260824/pexels-photo-2260824.jpeg?auto=compress&cs=tinysrgb&w=600",
         location:"New York USA",
         moveby:[2023,1,10],
         category:"Store"
