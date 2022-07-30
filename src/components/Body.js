@@ -142,7 +142,8 @@ function Body() {
                                   <b>${product.price}/month</b>
                                   <Card.Title>{product.title} {product.id}</Card.Title>
                                   <Card.Text>
-                                   {product.adress} {product.moveby[2]}/{product.moveby[1]}/{product.moveby[0]}
+                                   {product.adress} <br/>
+                                   Rent By {product.moveby[2]}/{product.moveby[1]}/{product.moveby[0]}
                                   </Card.Text>
                                   <hr/>
                                   <div className='card-lower'>
