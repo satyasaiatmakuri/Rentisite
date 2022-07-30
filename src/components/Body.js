@@ -6,6 +6,8 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import BathtubIcon from '@mui/icons-material/Bathtub';
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 import SearchIcon from '@mui/icons-material/Search';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 
 function Body() {
@@ -129,7 +131,20 @@ function Body() {
                     </div>
                 </div>
                 <div className='text-center'>
-                        <Button variant="primary" onClick={manualfilter}>Search</Button>
+                        <Button variant="primary" onClick={manualfilter} className='m-3'>Search</Button>
+                        
+                        <OverlayTrigger
+                          placement='right'
+                          overlay={
+                            <Tooltip>
+                              Enter Location like India, USA, Europe, Italy, Maldives.
+                            </Tooltip>
+                          }
+                        >
+                          <Button variant="primary" className='m-3'>Help</Button>
+                        </OverlayTrigger>
+                        
+
                 </div>
                 <div className='row'>
                     {filter.map((product)=>{
