@@ -15,8 +15,8 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='container py-3'>
-            <div className=' nav-logo col-6 col-lg-3 text-center'>
-                    Logo
+            <div className=' nav-logo display-4 col-6 col-lg-3 text-center'>
+                    Rentisite
             </div>
             <div className='nav-menu col-lg-6 d-none d-lg-block'>
                 <div className='nav-menu-inner'>
@@ -65,20 +65,20 @@ function Navbar() {
               <MenuIcon onClick={handleShow} className='menu-icon'/>
             </div>
         </div>
-        <Offcanvas show={show} onHide={handleClose} placement='end'>
-            <Offcanvas.Header closeButton className='canva-header'>
-              <Offcanvas.Title>Rental</Offcanvas.Title>
+        <Offcanvas show={show} onHide={handleClose} placement='end' className='offcanva' scroll= 'true' backdrop = 'false'>
+            <Offcanvas.Header closeButton className='offcanva-header'>
+              <Offcanvas.Title className='offcanva-title'>RENTISITE</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className='canva-body'>
-              <div className='toggle-menu-items'>
-                  <div className='toggle-menu-item'>Rent</div>
-                  <div className='toggle-menu-item'>Buy</div>
-                  <div className='toggle-menu-item'>Sell</div>
-                  <div className='toggle-menu-item'>Manage property</div>
-                  <div className='toggle-menu-item'>Resource</div>
-                  <div className='toggle-menu-item'>Login</div>
-                  <div className='toggle-menu-item'>Signup</div>
-              </div>
+            <Offcanvas.Body className='offcanva-body'>
+                <ul>
+                    <li onClick={handleClose}><span>01.</span><b>Rent</b></li>
+                    <li onClick={handleClose}><span>02.</span><b>Buy</b></li>
+                    <li onClick={handleClose}><span>03.</span><b>Sell</b></li>
+                    <li onClick={handleClose}><span>04.</span><b>Manage property</b></li>
+                    <li onClick={handleClose}><span>05.</span><b>Resource</b></li>
+                    <li onClick={handleClose}><span>06.</span><b>Login</b></li>
+                    <li onClick={handleClose}><span>07.</span><b>Signup</b></li>
+                </ul>
             </Offcanvas.Body>
         </Offcanvas>
     </div>

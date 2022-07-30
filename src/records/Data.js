@@ -276,7 +276,7 @@ export const properties=[
         id:22,
         title:"West End Lanes",
         price:1900,
-        adress:"",
+        adress:"4603 Sunset Road, Pune, India",
         beds:2,
         bathrooms:2,
         area:`6*8`,

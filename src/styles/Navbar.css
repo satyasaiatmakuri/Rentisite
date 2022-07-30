@@ -3,6 +3,11 @@
     border-bottom: 1px solid rgb(74, 19, 126);
 }
 
+.nav-logo{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600 !important;
+}
+
 .nav-menu .nav-menu-inner{
     width: 100%;
     display: flex;
@@ -41,20 +46,62 @@
 
 .menu-icon{
     font-size: xx-large !important;
-}
-
-.canva-header{
-    background-color:rgb(243, 246, 248) ;
-}
-
-.canva-body{
-    background-color:rgb(243, 246, 248) ;
-    display: flex;
-    width: 100%;
-    align-items: center;
+    cursor: pointer;
 }
 
 .toggle-menu-item{
     margin: 10px;
     font-size: x-large;
 }
+
+.offcanva-body li:hover span{
+    color: rgb(74, 19, 126);
+}
+
+.offcanva-body a{
+    text-decoration: none;
+}
+
+.offcanva-header{
+    background-color: rgb(243, 246, 248);
+    padding: 2rem 2rem  !important;
+}
+
+.offcanva-header .btn-close{
+    background-color: rgb(243, 246, 248) !important;
+}
+
+.offcanva-title{
+    letter-spacing: 0.1em;
+    font-size: small !important;
+    color: Black;
+}
+
+.offcanva-body{
+    background-color: rgb(243, 246, 248);
+}
+.offcanva-body ul{
+    list-style: none;
+    padding: 0 1.2rem;
+}
+.offcanva-body ul li{
+    border-top: 1px solid rgb(53, 53, 53);
+    padding: 1rem 0.5rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.offcanva-body ul .last-li{
+    border-bottom: 1px solid rgb(53, 53, 53);
+}
+.offcanva-body ul li span{
+    color: gray;
+}
+
+.offcanva-body ul li b{
+    padding-left: 1rem;
+    color: rgb(74, 19, 126);
+}
+
+
+

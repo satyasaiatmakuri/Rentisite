@@ -77,7 +77,7 @@ function Body() {
             <div className='header'>
                 <div className='row'>
                     <div className='title col-lg-7 col-12 display-6'>
-                        <b>Search Properties To Rent</b>
+                        Search Properties To Rent
                     </div>
                     <div className='search-bar col-lg-5 col-12 my-3'>
                       <div className='search-bar-inner '>
@@ -140,10 +140,10 @@ function Body() {
                                 <Card.Img variant="top" style={{ height: '20rem'}} src={product.image} className='card-image'/>
                                 <Card.Body>
                                   <b>${product.price}/month</b>
-                                  <Card.Title>{product.title} {product.id}</Card.Title>
+                                  <Card.Title>{product.title}</Card.Title>
                                   <Card.Text>
                                    {product.adress} <br/>
-                                   Rent By {product.moveby[2]}/{product.moveby[1]}/{product.moveby[0]}
+                                   Rent it by <b>{product.moveby[2]}/{product.moveby[1]}/{product.moveby[0]}</b>
                                   </Card.Text>
                                   <hr/>
                                   <div className='card-lower'>
